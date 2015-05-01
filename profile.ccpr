@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<profile version="15"
-         update="https://www.commcarehq.org/a/willslearningproject/apps/download/948653b7d127ae5c7bd2963f02993a6b/media_profile.ccpr?latest=true"
+<profile version="26"
+         update="https://www.commcarehq.org/a/willslearningproject/apps/download/bbb9bfb2a58387eb4fc474749b87e175/media_profile.ccpr?latest=true"
          requiredMajor="2"
          requiredMinor="20"
          uniqueid="c7e0e7829e67a6c14f49616410f21445"
@@ -11,8 +11,8 @@
     <property key="restore-url" value="file:///E:/CommCare.Backup"/>
     <property key="ota-restore-url" value="https://www.commcarehq.org/a/willslearningproject/phone/restore/"/>
     <property key="ota-restore-url-testing" value="https://www.commcarehq.org/a/willslearningproject/phone/restore/"/>
-    <property key="PostURL" value="https://www.commcarehq.org/a/willslearningproject/receiver/secure/948653b7d127ae5c7bd2963f02993a6b/" force="true"/>
-    <property key="PostTestURL" value="https://www.commcarehq.org/a/willslearningproject/receiver/secure/948653b7d127ae5c7bd2963f02993a6b/" force="true"/>
+    <property key="PostURL" value="https://www.commcarehq.org/a/willslearningproject/receiver/bbb9bfb2a58387eb4fc474749b87e175/" force="true"/>
+    <property key="PostTestURL" value="https://www.commcarehq.org/a/willslearningproject/receiver/bbb9bfb2a58387eb4fc474749b87e175/" force="true"/>
     <property key="key_server" value="https://www.commcarehq.org/a/willslearningproject/phone/keys/"/>
     <property key="cur_locale" value="en"/>
     <property key="cc_user_domain" value="willslearningproject.commcarehq.org"/>
@@ -87,18 +87,18 @@
         </users>
     </features>
 
-    <suite><resource id="suite" version="15">
+    <suite><resource id="suite" version="26">
         
             <location authority="local">./suite.xml</location>
         
-        <location authority="remote">https://www.commcarehq.org/a/willslearningproject/apps/download/948653b7d127ae5c7bd2963f02993a6b/suite.xml</location>
+        <location authority="remote">https://www.commcarehq.org/a/willslearningproject/apps/download/bbb9bfb2a58387eb4fc474749b87e175/suite.xml</location>
     </resource></suite>
     
-    <suite><resource id="media-suite" version="15">
+    <suite><resource id="media-suite" version="26">
         
             <location authority="local">./media_suite.xml</location>
         
-        <location authority="remote">https://www.commcarehq.org/a/willslearningproject/apps/download/948653b7d127ae5c7bd2963f02993a6b/media_suite.xml</location>
+        <location authority="remote">https://www.commcarehq.org/a/willslearningproject/apps/download/bbb9bfb2a58387eb4fc474749b87e175/media_suite.xml</location>
     </resource></suite>
     
 </profile>
